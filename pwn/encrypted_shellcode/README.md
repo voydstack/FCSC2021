@@ -10,7 +10,7 @@
 
 - Nombre de résolutions: `9`
 
-**Énoncé: **
+**Énoncé:**
 
 >  Lors d'un audit, vous trouvez ces fichiers et ces commandes dans des logs :
 >
@@ -28,7 +28,7 @@
 
 
 
-**Fichiers attachés: **
+**Fichiers attachés:**
 
 - `esc`: Le binaire présent dans les commandes de l'énoncé
 
