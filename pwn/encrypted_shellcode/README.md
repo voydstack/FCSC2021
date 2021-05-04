@@ -1,8 +1,4 @@
-
-
-
-
-# Encrypted Shellcode
+# Encrypted Shellcode
 
 - Catégorie: `pwn`
 
