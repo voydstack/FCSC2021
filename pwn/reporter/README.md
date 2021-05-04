@@ -134,7 +134,7 @@ Afin d'être plus efficace dans la recherche de la vulnérabilité, au vu du con
 
 - La vulnérabilité ne se situe pas au niveau du moteur (WebKit)
 - La vulnérabilité doit être présente dans les différentes fonctionnalités offertes par le navigateur
-- L'absence de la protection de `Stack Canary` semble indiquer qu'il doit probablement s'agit d'un `buffer overflow` sur la pile.
+- L'absence de la protection de `Stack Canary` semble indiquer qu'il doit probablement s'agir d'un `buffer overflow` sur la pile.
 
 Avec ces hypothèses en tête, nous pouvons commencer à chercher la vulnérabilité!
 
