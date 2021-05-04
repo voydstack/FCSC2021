@@ -47,7 +47,7 @@ En lisant simplement l'énoncé, on peut déjà comprendre plusieurs choses:
 
 - La clé `key.bin` est générée aléatoirement, et ne nous est pas donnée.
 - Le binaire `esc` peut prendre un paramètre optionnel `-e` qui avec lequel il prendra sur l'entrée standard un fichier et écrira son contenu chiffré avec la clé `key.bin` sur la sortie standard.
-- Sans passer l'argument `-e` le binaire va juste prendre sur lire sur l'entrée standard et `SEGFAULT`.
+- Sans passer l'argument `-e` le binaire va juste lire sur l'entrée standard et `SEGFAULT`.
 
 On peut essayer de reproduire les mêmes opérations que dans l'énoncé en générant notre propre `key.bin`.
 
