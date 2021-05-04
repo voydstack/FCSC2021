@@ -4,7 +4,7 @@
 - Points: `499`
 - Nombre de résolutions: `12`
 
-**Énoncé: **
+**Énoncé:**
 
 > Vous arrivez dans une nouvelle entreprise qui utilise un navigateur conçu en interne. Pouvez-vous obtenir un shell sur la machine de la personne qui vérifie les liens qu'on lui envoie ?
 >
@@ -12,7 +12,7 @@
 
 
 
-**Fichiers attachés: **
+**Fichiers attachés:**
 
 - `fcsc_browser`: Le binaire du navigateur.
 
