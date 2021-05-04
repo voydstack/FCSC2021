@@ -154,11 +154,11 @@ La fonction commence par allouer `0x400048` octets sur la pile, puis appelle `me
 
 La fonction `read(0, buffer + 0x30, 0x400000)` est ensuite appelée (c'est dans `buffer + 0x30` que le contenu de ce qu'on envoie en entrée sera stocké).
 
-Des instructions SSE sont ensuite exécutées pour déplacer 16 octets par 16 octets des données contenu dans `.data` directement au début de notre buffer.
+Des instructions SSE sont ensuite exécutées pour déplacer 16 octets par 16 octets des données contenues dans `.data` directement au début de notre buffer.
 
 ![Cutter shellcode header](img/cutter-shellcode-header.png)
 
-Ces données contient en faite du code assembleur qui va simplement fixer à 0 tous les registres usuels du à l’exception de `rsp`:
+Ces données contiennent en faite du code assembleur qui va simplement fixer à 0 tous les registres usuels du à l’exception de `rsp`:
 
 ![Ghidra shellcode header](img/ghidra-shellcode-header.png)
 
