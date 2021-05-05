@@ -182,7 +182,7 @@ Le mode d'opération utilisé ici pour le chiffrement semble être `ECB` (https:
 
 ![img](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Schema_ecb.png/600px-Schema_ecb.png)
 
-Le fait que ce mode d'opération particulier est déterminant pour la résolution, nous allons voir cela plus tard dans ce writeup. 
+Le fait que ce mode d'opération particulier soit utilisé est déterminant pour la résolution, nous allons voir cela plus tard dans ce writeup. 
 
 Et finalement, l'existence de l'argument `-e` est testée pour déterminer si on doit afficher sur la sortie standard le contenu du fichier chiffré, ou alors exécuter directement le contenu chiffré:
 
