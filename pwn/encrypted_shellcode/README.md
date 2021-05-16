@@ -366,7 +366,7 @@ Plusieurs problèmes se lèvent alors dans le choix de nos gadgets:
 
 - Il faut que le bloc ne contienne pas d'instruction invalide (et donc doit contenir seulement des instructions valides sur les 16 octets qui le constituent)
 - Il faut que le bloc ne fasse pas crash le programme avec un accès illégitime à la mémoire.
-  - Il faut donc éviter à tous pris les instructions déréférençant un pointeur, du style `[rXX +/- Y]`
+  - Il faut donc éviter à tous prix les instructions déréférençant un pointeur, du style `[rXX +/- Y]`
 
 - Il faut que toutes les instructions du bloc ne modifient pas le flux d'exécution du programme
 - Il faut que toutes les instructions du bloc n'altère pas les valeurs des autres registres nécessaires (`rax`, `rdi` par exemple)
